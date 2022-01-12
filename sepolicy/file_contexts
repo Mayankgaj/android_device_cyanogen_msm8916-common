@@ -5,3 +5,6 @@
 
 # Shell files
 /system/vendor/bin/init\.qcom\.mem\.sh                                    u:object_r:qti_init_shell_exec:s0
+
+# Firmware
+/firmware(/.*)?                                 u:object_r:firmware_file:s0
